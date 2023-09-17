@@ -1,4 +1,4 @@
-package com.student.studentcontroller;
+package com.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.student.dao.Student;
-import com.studentservice.StudentService;
+import com.entity.Student;
+import com.service.StudentService;
 
 @RestController
 public class StudentController {
